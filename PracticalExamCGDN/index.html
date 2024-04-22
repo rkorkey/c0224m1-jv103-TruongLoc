@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Exam CGDN</title>
+</head>
+<body>
+<h1>Chọn bài tập để xem kết quả:</h1>
+<select id="exerciseSelect">
+    <option value="">--Chọn bài tập--</option>
+    <option value="exercise1">Bài 1: Tính điểm trung bình</option>
+    <option value="exercise2">Bài 2: Thêm số vào mảng</option>
+    <option value="exercise3">Bài 3: Tính tổng các số nguyên tố</option>
+    <option value="exercise4">Bài 4: Hiển thị hình tròn trên canvas</option>
+</select>
+<button onclick="handleSelectionChange()">Xác nhận</button>
+
+<div id="output"></div>
+<canvas id="canvas" width="200" height="200" style="display: none;"></canvas>
+
+<script src="index.js"></script>
+</body>
+</html>
